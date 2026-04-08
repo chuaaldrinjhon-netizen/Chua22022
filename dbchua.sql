@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 25, 2026 at 06:25 AM
+-- Generation Time: Apr 08, 2026 at 03:58 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `test`
+-- Database: `dbchua`
 --
 
 -- --------------------------------------------------------
@@ -68,26 +68,26 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`id`, `student_number`, `lastname`, `firstname`, `phone`, `email`, `address`, `created_at`) VALUES
-(3, 240115584, 'Tabayocyoc', 'Leo', '09277085948', 'leotabayocyoc4@gmail.com', 'Bagong Silang', '2026-03-25 02:27:30'),
-(4, 240103629, 'Condeno', 'Lalaine', '09786546234', 'lalainecondeno@gmail.com', 'Quezon City', '2026-02-10 00:51:35'),
-(5, 240110185, 'Martirez', 'Khalil Jericho', '09784376675', 'khalilkhalil@gmail.com', 'Caloocan City', '2026-02-10 00:51:51'),
-(6, 240109595, 'Andaya', 'Edgar Roy', '09876543123', 'edgar@gmail.com', 'Valenzuela City', '2026-02-10 00:52:05'),
-(7, 240112023, 'Dela Torre', 'Rance', '09890987656', 'delatorre@gmail.com', 'Quezon City', '2026-02-10 00:52:26'),
-(8, 240109148, 'Asuncion', 'Chellord', '09231313141', 'Chellord@gmail.com', 'Quezon City', '2026-02-10 00:54:38'),
-(9, 240107139, 'Unahan', 'June Rey', '09432495852', 'unahan@gmail.com', 'Quezon City', '2026-02-10 00:55:18'),
-(10, 240109146, 'Calisora', 'Chynna Anne', '09093478324', 'calisora@gmail.com', 'Quezon City', '2026-02-10 00:55:39'),
-(11, 240112352, 'Ticano', 'Josh Van Rich', '09858908582', 'ticano@gmail.com', 'Quezon City', '2026-02-10 00:55:59'),
-(12, 240113156, 'Quintab', 'John Benedict', '09412049532', 'quintab@gmail.com', 'Quezon City', '2026-02-10 00:56:17'),
-(13, 240112408, 'Polea', 'John Patrick', '09432576892', 'polea@gmail.com', 'Quezon City', '2026-02-10 00:56:33'),
-(14, 240113349, 'Gomba', 'Arvie', '09084238564', 'arviegomba@gmail.com', 'Quezon City', '2026-02-10 00:56:50'),
-(15, 240111317, 'Lotino', 'John Michael', '09994375961', 'lotino@gmail.com', 'Quezon City', '2026-02-10 00:57:10'),
-(16, 240104416, 'Padilla', 'Den Russel', '09457328346', 'padilla@gmail.com', 'Quezon City', '2026-02-10 00:57:32'),
-(17, 240112249, 'Relos', 'Jerome', '09908932138', 'relos@gmail.com', 'Quezon City', '2026-02-10 00:57:49'),
-(18, 240113537, 'Ochavillo', 'Mary Joy', '09875098076', 'ochavillo@gmail.com', 'Caloocan City', '2026-02-10 01:00:29'),
-(20, 240111283, 'Cabrillas', 'Arabela Grace', '09869009654', 'ara@gmail.com', 'Quezon City', '2026-02-10 01:03:01'),
-(21, 240106263, 'Arroyo', 'Jhodell', '09846312345', 'arroyo@gmail.com', 'Quezon City', '2026-02-10 01:05:11'),
-(22, 240111224, 'Balang', 'Jericho', '09895476854', 'balang@gmail.com', 'Quezon City', '2026-02-10 01:08:57'),
-(23, 240114305, 'Sasuman', 'Jan', '09876543212', 'sasuman@gmail.com', 'Quezon City', '2026-02-10 01:21:19');
+(3, 240104337, 'Aban', 'Jesren John Turqueza', '09277085948', 'Aban@gmail.com', 'Bagong Silang', '2026-04-08 10:21:14'),
+(4, 240113476, 'Agato', 'Gerardo Santos', '09786546234', 'Agato@gmail.com', 'Quezon City', '2026-04-08 10:21:38'),
+(5, 240109351, 'Agtas', 'Leorence Daniel Martin', '09784376675', 'Agtas@gmail.com', 'Caloocan City', '2026-04-08 10:22:06'),
+(6, 240115766, 'Alva', 'Carl Jobert Avelino', '09876543123', 'Alva@gmail.com', 'Valenzuela City', '2026-04-08 10:23:09'),
+(7, 21016794, 'Aquino', 'Aljohn Gorgonia', '09890987656', 'Aquino@gmail.com', 'Quezon City', '2026-04-08 10:23:42'),
+(8, 240103541, 'Aranas', 'Carl Lorence Cabañas', '09231313141', 'Aranas@gmail.com', 'Quezon City', '2026-04-08 10:24:16'),
+(9, 240103259, 'Arias', 'Justin Luis Echaveria', '09432495852', 'Arias@gmail.com', 'Quezon City', '2026-04-08 10:25:01'),
+(10, 240116065, 'Barbarona', ' Jonard Villacapa', '09093478324', 'Barbarona@gmail.com', 'Quezon City', '2026-04-08 10:25:37'),
+(11, 240102936, 'Baricaua', 'Blesszel Joy Rodriguez', '09858908582', 'Baricaua@gmail.com', 'Quezon City', '2026-04-08 10:26:06'),
+(12, 240110558, 'Bellen', 'Jazper Jake Eroll Carosos', '09412049532', 'Bellen@gmail.com', 'Quezon City', '2026-04-08 10:26:49'),
+(13, 240115207, 'Bigas', 'Jerick Jumawan', '09432576892', 'Bigas@gmail.com', 'Quezon City', '2026-04-08 10:27:18'),
+(14, 240111179, 'Borja', 'Ace ', '09084238564', 'Borja@gmail.com', 'Quezon City', '2026-04-08 10:27:59'),
+(15, 240115097, 'Borres', 'Lorenz James Quinisio', '09994375961', 'Borres@gmail.com', 'Quezon City', '2026-04-08 10:28:35'),
+(16, 240113686, 'Casinova', 'Steve John Realubit', '09457328346', 'Casinova@gmail.com', 'Quezon City', '2026-04-08 10:29:02'),
+(17, 240117088, 'Cawaling', 'Cyrus Jasper Espineda ', '09908932138', 'Cawaling@gmail.com', 'Quezon City', '2026-04-08 10:29:29'),
+(18, 240110186, 'Corbita', 'Wayne Wilson Guillo ', '09875098076', 'Corbita@gmail.com', 'Caloocan City', '2026-04-08 10:29:52'),
+(20, 240116136, 'Cruz', 'Ronald Jay Castillo', '09869009654', 'Cruz@gmail.com', 'Quezon City', '2026-04-08 10:30:13'),
+(21, 240116633, 'De Vera', 'Michelle Cahilig', '09846312345', 'De Vera@gmail.com', 'Quezon City', '2026-04-08 10:30:48'),
+(22, 240114702, 'Deo', 'Aira Marielle Camalla', '09895476854', 'Deo@gmail.com', 'Quezon City', '2026-04-08 10:31:09'),
+(23, 240116510, 'Ditol', 'Ma Victoria Astorga', '09876543212', 'Ditol@gmail.com', 'Quezon City', '2026-04-08 10:31:46');
 
 -- --------------------------------------------------------
 
@@ -108,7 +108,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `password`, `role`) VALUES
 (1, 'admin', 'admin', 'admin'),
-(2, 'user', 'user', 'user');
+(2, 'user', 'user', 'user'),
+(3, 'Chua', '123', 'user');
 
 --
 -- Indexes for dumped tables
@@ -152,7 +153,7 @@ ALTER TABLE `students`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

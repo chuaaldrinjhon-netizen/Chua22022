@@ -95,11 +95,11 @@
               <!--
                 For hybrid deployment (Vercel front-end + external PHP host for auth):
                 1) Upload your `admin/` folder and PHP files to a PHP-capable host.
-                2) Import `dbchua.sql` to a MySQL database on that host.
+                2) Import `dbchua.sql` to a MySQL database on that githost.
                 3) Update the host's `admin/connect.php` with the DB credentials.
                 4) Replace the ACTION below with your PHP host's absolute URL.
               -->
-              <form id="formAuthentication" class="mb-5" action="https://chua22022.vercel.app/admin/login.php" method="POST">
+              <form id="formAuthentication" class="mb-5" method="POST">
                 <div class="form-floating form-floating-outline mb-5 form-control-validation">
                   <input
                     type="text"

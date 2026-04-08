@@ -1,0 +1,24 @@
+<?php
+/*
+ * connect.php.template
+ * Copy this file to the server as `connect.php` and fill the values below.
+ * IMPORTANT: Do NOT commit your real credentials to git. Edit this file on the server
+ * using the host's file manager or via SFTP after deployment.
+ */
+
+$db_server = 'YOUR_DB_HOST';      // e.g. 'localhost' or 'db123.hostingprovider.com'
+$db_user   = 'YOUR_DB_USER';
+$db_pass   = 'YOUR_DB_PASS';
+$db_name   = 'YOUR_DB_NAME';
+
+$conn = new mysqli($db_server, $db_user, $db_pass, $db_name);
+if ($conn->connect_error) {
+    // In production, avoid echoing raw errors. Use logs instead.
+    error_log('Database connection failed: ' . $conn->connect_error);
+    die('Database connection failed.');
+}
+
+$conn->set_charset('utf8mb4');
+
+// Usage: include 'connect.php'; then use $conn for queries.
+?>

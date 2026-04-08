@@ -6,10 +6,10 @@
  * using the host's file manager or via SFTP after deployment.
  */
 
-$db_server = 'YOUR_DB_HOST';      // e.g. 'localhost' or 'db123.hostingprovider.com'
-$db_user   = 'YOUR_DB_USER';
-$db_pass   = 'YOUR_DB_PASS';
-$db_name   = 'YOUR_DB_NAME';
+$db_server = 'localhost';      // e.g. 'localhost' or 'db123.hostingprovider.com'
+$db_user   = 'root';
+$db_pass   = '';
+$db_name   = 'dbchua';
 
 $conn = new mysqli($db_server, $db_user, $db_pass, $db_name);
 if ($conn->connect_error) {

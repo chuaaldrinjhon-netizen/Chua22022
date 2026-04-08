@@ -19,7 +19,7 @@ $result = $conn->query($sql);
                 header("Location: ../user/index.php");
             }
     }else{
-        echo "Invalid Login <a href= '../index.php'> Try Again </a>";
+        echo "Invalid Login <a href= '../Login.php'> Try Again </a>";
     }
 
 ?>
